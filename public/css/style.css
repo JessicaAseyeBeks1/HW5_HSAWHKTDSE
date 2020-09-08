@@ -1,0 +1,29 @@
+
+body {
+    font-family: PT Sans;
+}
+
+.cases-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #c860e2;
+    border: 2px solid rgb(2, 2, 2);
+    text-align: left;
+    border-radius: 5px;
+    padding: 5px;
+    -moz-osx-font-smoothing: grayscale;
+    
+
+}
+
+.background{
+    width: 90vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px ;
+}
+
+h4{
+    text-align: center;
+}
